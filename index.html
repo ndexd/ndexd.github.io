@@ -1,49 +1,60 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>$It works!$</title>
+    <meta charset="utf-8">
+    <title>Welcome to My WebPage</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet'>
 </head>
+
 <body>
-<h1> IT WORKS </h1>
+    <div id="wrapper">
+        <header>
+            <div class="logo">
+                <img src="images/globe.png" width="286" height="347">
+            </div>
+                <div class="texta">
+                <h1 id="main"> Main Page </h1>
+                </div>
+                <div class="nav"> 
+            <nav>
+                <ul>
+                    <li>
+                        <a class="current" href="index.html" tabindex="1" title="Home" target="_self">Home</a>
+                    </li>
+                    <li>
+                        <a href="univer.html" tabindex="2" title="My UniverSity" target="_self">My UniverSity</a>
+                    </li>
+                    <li>
+                        <a href="hobby.html" tabindex="3" title="My Hobby" target="_self">My Hobby</a>
+                    </li>
+                    <li>
+                        <a href="a_me.html" tabindex="4" title="About me" target="_self">About me</a>
+                    </li>
+                </ul>
+            </nav>
+                </div>
+                <div class="pod">
+                    <img src="images/pod.png">
+                </div>
+        </header>
 
-<?php
-echo "Hello World!";
-echo "<br>";
-echo "This is a PHP script running on an Apache server inside a Docker container.";
-echo "<br>";
-echo "The time is now " . date("h:i:sa");
-echo "<br>";
-echo "<br>";
-echo "This is a simple example of Dockerizing a PHP application.";
-echo "<br>";
-echo "The Dockerfile is in the root of the project and is used to build the Docker image.";
-echo "<br>";
-echo "The docker-compose.yml file is used to start the Docker container.";
-echo "<br>";
-echo "The container is running an Apache server with PHP installed.";
-echo "<br>";
-echo "The PHP script is located in /var/www/html/index.php.";
-echo "<br>";
-echo "It is mounted as a volume in the Docker container.";
-echo "<br>";
-echo "This allows the PHP script to be modified without rebuilding the Docker image.";
-echo "<br>";
-echo "The PHP script is running on the Apache server.";
-echo "<br>";
-echo "The Apache server is running on port 80 inside the Docker container.";
-echo "<br>";
-echo "The Docker container is running on port 8080 on the host machine.";
-echo "<br>";
-echo "The PHP script can be accessed at http://localhost:8080.";
-echo "<br>";
-echo "That's it!";
-echo "<br>";
-echo "Thanks for checking out this example!";
-echo "<br>";
-echo "Have a great day!";
-?>
-
-
+        <main>
+            
+            <h1>Welcome to Nurzat's Personal Webpage</h1>
+            <p>This web page was created as the project for Adil Seiketov,ICT. In the future, i hope that i can improve it to post about my life, what is going and so on.</p>
+            <p> Also as my teacher wished i added some jokes at the bottom of every page. Hope you enjoy Adis :)</p></br>
+            <p> Many things in this site where created by my hand like logoes or another pictures by using paint and took about 15 hours of hardworking.</p>
+            <p> P.S. half of them without internet.
+        </main>
+        <footer>
+            <blockquote>"Hardware - The part of computer that you can kick"</blockquote>         
+            <p class="copyrightText">&copy;Yessengeldin Nurzat. Personal WebPage. All rights i guess reserved, at least i hope so.</p>
+        </footer>
+    </div>
 </body>
+
 </html>
